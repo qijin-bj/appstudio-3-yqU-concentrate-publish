@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-ghau
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/qijing/ex-registry-ligz-tenant/appstudio/dc-metro-map-ghau@sha256:d50265afd3015dbfd76a189097d8d2a4e7052fb356e03d914636adaf15715f3a
         name: my-nodejs
         ports:
         - containerPort: 3001
